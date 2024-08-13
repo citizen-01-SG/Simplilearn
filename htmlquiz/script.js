@@ -11,7 +11,7 @@ let quizScore = 0;
 startButton.addEventListener('click',startGame)
 
 nextButton.addEventListener('click',() => {
-  correctQuestionIndex++;
+  correctQuestionIndex++
   setnextQuestion()
 })
 
