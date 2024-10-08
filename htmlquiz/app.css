@@ -49,6 +49,13 @@ body.wrong {
 .btn:hover {
   border-color: black;
 }
+.btn.correct {
+  --houe: var(--hue-correct);
+}
+.btn.wrong {
+  --hue: var(--hue-wrong);
+}
+ 
 .start-btn,
 .next-btn {
   font-size: 1.5rem;
